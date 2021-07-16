@@ -1,0 +1,23 @@
+{
+  "name": "Emitter",
+  "version": "1.0.0",
+  "summary": "Emitter: Distributed Publish-Subscribe Platform",
+  "description": "inspire by emitter.io & eventbus",
+  "homepage": "https://github.com/tangbl93/Emitter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tangbl93": "tangbl93@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/tangbl93/Emitter.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Emitter/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/Emitter.h"
+}

@@ -1,20 +1,20 @@
 //
-//  EMRViewController.m
-//  Emitter
+//  EMRLastViewController.m
+//  Emitter_Example
 //
-//  Created by tangbl93 on 07/16/2021.
-//  Copyright (c) 2021 tangbl93. All rights reserved.
+//  Created by tangbl93 on 2021/7/16.
+//  Copyright © 2021 tangbl93. All rights reserved.
 //
 
-#import "EMRViewController.h"
+#import "EMRLastViewController.h"
 
 #import <Emitter/Emitter.h>
 
-@interface EMRViewController ()
+@interface EMRLastViewController ()
 
 @end
 
-@implementation EMRViewController
+@implementation EMRLastViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

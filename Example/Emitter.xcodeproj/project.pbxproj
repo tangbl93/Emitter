@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D92541626A1CF1400D223D7 /* EMRLastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D92541526A1CF1400D223D7 /* EMRLastViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -40,7 +41,9 @@
 		17000258624AC6D68749ED9D /* Pods_Emitter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Emitter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		179A9450FC74D66CFBED776C /* Pods_Emitter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Emitter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC579A9DDD80179B7ACEF72 /* Pods-Emitter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emitter_Tests.release.xcconfig"; path = "Target Support Files/Pods-Emitter_Tests/Pods-Emitter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5A6D842793522F2546454FCA /* Emitter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Emitter.podspec; path = ../Emitter.podspec; sourceTree = "<group>"; };
+		4D92541426A1CF1400D223D7 /* EMRLastViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMRLastViewController.h; sourceTree = "<group>"; };
+		4D92541526A1CF1400D223D7 /* EMRLastViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMRLastViewController.m; sourceTree = "<group>"; };
+		5A6D842793522F2546454FCA /* Emitter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Emitter.podspec; path = ../Emitter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* Emitter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emitter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,11 +63,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6D9247091A2B72147C906A57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6D9247091A2B72147C906A57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		967FA89570F6829A7849C303 /* Pods-Emitter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emitter_Example.release.xcconfig"; path = "Target Support Files/Pods-Emitter_Example/Pods-Emitter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AC4F71BF3E8CD945F59285AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AC4F71BF3E8CD945F59285AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C49951D56F841E83E8C0E922 /* Pods-Emitter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emitter_Example.debug.xcconfig"; path = "Target Support Files/Pods-Emitter_Example/Pods-Emitter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D09CE60B96FF7AE20D96759D /* Pods-Emitter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emitter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Emitter_Tests/Pods-Emitter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +106,6 @@
 				D09CE60B96FF7AE20D96759D /* Pods-Emitter_Tests.debug.xcconfig */,
 				1DC579A9DDD80179B7ACEF72 /* Pods-Emitter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* EMRViewController.h */,
 				6003F5A6195388D20070C39A /* EMRViewController.m */,
+				4D92541426A1CF1400D223D7 /* EMRLastViewController.h */,
+				4D92541526A1CF1400D223D7 /* EMRLastViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -246,7 +250,7 @@
 			attributes = {
 				CLASSPREFIX = EMR;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "x-access-token";
+				ORGANIZATIONNAME = tangbl93;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -365,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* EMRAppDelegate.m in Sources */,
+				4D92541626A1CF1400D223D7 /* EMRLastViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* EMRViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

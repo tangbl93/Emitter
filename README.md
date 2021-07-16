@@ -1,6 +1,6 @@
 # Emitter
 
-[![CI Status](https://img.shields.io/travis/x-access-token/Emitter.svg?style=flat)](https://travis-ci.org/x-access-token/Emitter)
+[![CI Status](https://img.shields.io/travis/tangbl93/Emitter.svg?style=flat)](https://travis-ci.org/tangbl93/Emitter)
 [![Version](https://img.shields.io/cocoapods/v/Emitter.svg?style=flat)](https://cocoapods.org/pods/Emitter)
 [![License](https://img.shields.io/cocoapods/l/Emitter.svg?style=flat)](https://cocoapods.org/pods/Emitter)
 [![Platform](https://img.shields.io/cocoapods/p/Emitter.svg?style=flat)](https://cocoapods.org/pods/Emitter)
@@ -22,7 +22,7 @@ pod 'Emitter'
 
 ## Author
 
-x-access-token, tangbl93@gmail.com
+tangbl93, tangbl93@gmail.com
 
 ## License
 

@@ -1,0 +1,16 @@
+PODS:
+  - Emitter (1.0.0)
+
+DEPENDENCIES:
+  - Emitter (from `../`)
+
+EXTERNAL SOURCES:
+  Emitter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Emitter: 3a678e5103216e5328eb3235d1e144cec14de842
+
+PODFILE CHECKSUM: 24277e781dd551eb7b0bd4bb93f5107c69c42bea
+
+COCOAPODS: 1.10.1
