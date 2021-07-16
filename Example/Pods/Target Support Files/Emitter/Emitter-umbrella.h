@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Emitter+RM.h"
 #import "Emitter.h"
 #import "Subscriber.h"
 

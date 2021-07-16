@@ -9,14 +9,8 @@
 
 @implementation Subscriber
 
-- (instancetype)initWithSubscriber:(id)subscriber eventName:(NSString *)eventName block:(void (^)(id _Nonnull))block {
-    self = [super init];
-    if (self) {
-        self.subscriber = subscriber;
-        self.eventName = eventName;
-        self.block = block;
-    }
-    return self;
+- (dispatch_queue_t)queue {
+    return _queue ?: dispatch_get_main_queue();
 }
 
 @end

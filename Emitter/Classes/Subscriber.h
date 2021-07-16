@@ -11,11 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Subscriber : NSObject
 
-@property(nonatomic,weak) id subscriber;            // 订阅者/subscriber
-@property(nonatomic,copy) NSString *eventName;      // 事件名/event
-@property(nonatomic,copy) void (^block)(id object); // 事件回调/callback
-
-- (instancetype)initWithSubscriber:(id)subscriber eventName:(NSString *)eventName block:(void (^)(id object))block;
+@property(nonatomic,weak) id subscriber;            // 订阅者
+@property(nonatomic,copy) NSString *eventName;      // 事件名
+@property(nonatomic,copy) dispatch_queue_t queue;   // 事件触发队列
+@property(nonatomic,copy) void (^block)(id object); // 事件回调
 
 @end
 

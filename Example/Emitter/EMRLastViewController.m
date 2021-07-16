@@ -9,6 +9,7 @@
 #import "EMRLastViewController.h"
 
 #import <Emitter/Emitter.h>
+#import <Emitter/Emitter+RM.h>
 
 @interface EMRLastViewController ()
 
