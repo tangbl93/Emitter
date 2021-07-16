@@ -98,7 +98,7 @@ static dispatch_queue_t _emitterQueue;
 + (dispatch_queue_t)emitterQueue {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        @synchronized ([UIApplication sharedApplication]) {
+        @synchronized ([NSUserDefaults standardUserDefaults]) {
             if (_emitterQueue == nil) {
                 _emitterQueue = dispatch_queue_create("com.tangbl93.Emitter", DISPATCH_QUEUE_SERIAL);
             }

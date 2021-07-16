@@ -12,7 +12,6 @@
 
 #import "Emitter+RM.h"
 #import "Emitter.h"
-#import "Subscriber.h"
 
 FOUNDATION_EXPORT double EmitterVersionNumber;
 FOUNDATION_EXPORT const unsigned char EmitterVersionString[];

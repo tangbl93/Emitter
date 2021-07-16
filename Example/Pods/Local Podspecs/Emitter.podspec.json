@@ -18,6 +18,6 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "Emitter/Classes/**/*",
-  "public_header_files": "Pod/Classes/**/{Emitter,Emitter+RM}.h"
+  "source_files": "Emitter/**/*",
+  "public_header_files": "Emitter/include/**/{Emitter,Emitter+RM}.h"
 }

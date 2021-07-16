@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/tangbl93/Emitter.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
-  s.source_files = 'Emitter/Classes/**/*'
-  s.public_header_files = 'Pod/Classes/**/{Emitter,Emitter+RM}.h'
+  s.source_files = 'Emitter/**/*'
+  s.public_header_files = 'Emitter/include/**/{Emitter,Emitter+RM}.h'
   
 end
