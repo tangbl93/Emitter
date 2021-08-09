@@ -73,7 +73,7 @@
 
 - (void)emit:(NSString *)eventName object:(nullable id)object {
     [self traversal:^(Subscriber * _Nonnull item) {
-        if (item && item.block) {
+        if (item && [item.eventName isEqualToString:eventName] && item.block) {
             dispatch_async(item.queue, ^{
                 item.block(object);
             });
